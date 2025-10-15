@@ -50,10 +50,10 @@ const ExampleContent = () => {
         <div className="relative grid h-screen place-content-center space-y-6 bg-neutral-950 p-8 justify-items-center">
             <Image src='/bigcat.svg' width={200} height={200} alt="mikecat" className="" />
             <p className="text-center text-6xl font-black text-neutral-50 !mt-0">
-                想成為獸醫師嗎?
+                聖經挑戰者
             </p>
             <p className="text-center text-neutral-400">
-                測驗你有沒有獸醫師的潛能吧！ 📺
+                測試你的聖經知識，挑戰信仰與智慧的極限！ 📺
             </p>
             <div className="flex items-center justify-center gap-3">
                 {/* <button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800">
