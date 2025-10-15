@@ -100,7 +100,7 @@ export function ResultChart({ chartData }: { chartData: any }) {
                         此次測驗沒過呦，要在認真一點 📺
                     </p>
                     <div className="flex items-center justify-center gap-3">
-                        <button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" onClick={() => alert('👀目前還沒開放呦\n®詳解只有獸醫男朋友會而已❤️')}>
+                        <button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" onClick={() => alert('你真細心和認真❤️\n®但👀目前還沒開放呦')}>
                             題目詳解
                         </button>
                         <button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50" onClick={() => { playStart(), router.push('/quiz') }}>
