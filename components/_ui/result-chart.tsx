@@ -100,7 +100,7 @@ export function ResultChart({ chartData }: { chartData: any }) {
                         此次測驗沒過呦，要在認真一點 📺
                     </p>
                     <div className="flex items-center justify-center gap-3">
-                        <button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" onClick={() => alert('你真細心和認真❤️\n®但👀目前還沒開放呦')}>
+                        <button className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" onClick={() => alert('®你真細心和認真❤️\n但目前還沒開放呢👀')}>
                             題目詳解
                         </button>
                         <button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50" onClick={() => { playStart(), router.push('/quiz') }}>
@@ -109,14 +109,14 @@ export function ResultChart({ chartData }: { chartData: any }) {
                     </div>
                 </div>
             </CardContent>
-            <CardFooter className="flex-col gap-2 text-sm">
+            {/* <CardFooter className="flex-col gap-2 text-sm">
                 <div className="flex items-center gap-2 font-medium leading-none">
                     RaxW <TrendingUp className="h-4 w-4" />
                 </div>
                 <div className="leading-none text-muted-foreground">
                     Reserved all Right.
                 </div>
-            </CardFooter>
+            </CardFooter> */}
         </Card>
     )
 }
