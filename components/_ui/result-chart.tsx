@@ -102,7 +102,7 @@ export function ResultChart({ chartData }: { chartData: any }) {
         此次測驗{chartData[0].visitors >= 80 ? "通過囉，簡直完美 📺！" : "沒過呦，要再認真一點 📺"}
     </p>
     <div className="flex items-center justify-center gap-3">
-        <p className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" 
+        <p className="text-neutral-20 w-fit px-4 py-2 font-semibold text-neutral-200 transition-colors hover:bg-neutral-800" >
             題目詳解
         </p>
         <button className="w-fit bg-neutral-200 px-4 py-2 font-semibold text-neutral-700 transition-colors hover:bg-neutral-50" 
