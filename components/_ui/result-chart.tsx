@@ -109,9 +109,7 @@ export function ResultChart({ chartData }: { chartData: any }) {
                     </div>
                 </div>
             </CardContent>
-            <CardFooter className="flex-col gap-2 text-sm">
-               <></>
-            </CardFooter>
+           
         </Card>
     )
 }
