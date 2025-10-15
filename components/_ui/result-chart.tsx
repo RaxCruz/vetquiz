@@ -96,7 +96,7 @@ export function ResultChart({ chartData }: { chartData: any }) {
     <p className="mx-auto text-6xl font-black text-neutral-950 pl-4">
         {chartData[0].visitors >= 80 
             ? "表現得可圈可點！🎉"
-            : chartData[0].visitors.toLocaleString()}
+            : "這個分數，再加油好嗎？"}
     </p>
     <p className="text-center text-neutral-400">
         此次測驗{chartData[0].visitors >= 80 ? "通過囉，簡直完美 📺！" : "沒過呦，要再認真一點 📺"}
