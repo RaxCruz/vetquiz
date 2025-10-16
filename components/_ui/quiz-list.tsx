@@ -67,8 +67,14 @@ export default function QuizList() {
         setTimeout(() => {
             setSelected('')
             if (quizRound === 10) {
-                const score: string = (correctRate.filter(value => value === true).length * 10).toString();
-                router.push('/result' + '?' + createQueryString('score', score))
+                if(correct){
+                     const score: string = ((correctRate.filter(value => value === true).length+10) * 10).toString();
+                     router.push('/result' + '?' + createQueryString('score', score))
+                }else{
+                     const score: string = (correctRate.filter(value => value === true).length * 10).toString();
+                     router.push('/result' + '?' + createQueryString('score', score))
+                }
+               
             }
             else {
                 setQuizIndex(generateRandomNumber())
