@@ -95,8 +95,8 @@ export function ResultChart({ chartData }: { chartData: any }) {
                <div className="relative grid place-content-center space-y-6 p-8">
     <p className="mx-auto text-6xl font-black text-neutral-950 pl-4">
         {chartData[0].visitors >= 80 
-            ? "表現得可圈可點！🎉"
-            : "這個分數，再加油好嗎？"}
+            ? "遊刃有餘"
+            : "卡認真"}
     </p>
     <p className="text-center text-neutral-400">
         此次測驗{chartData[0].visitors >= 80 ? "通過囉，簡直完美 📺！" : "沒過呦，要再認真一點 📺"}
