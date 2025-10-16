@@ -27,7 +27,7 @@ export default function QuizList() {
         volume: 0.25,
     });
     useEffect(() => {
-        setQuizIndex(Math.floor(Math.random() * 126))
+        setQuizIndex(Math.floor(Math.random() * 176))
     }, [])
 
     const createQueryString = useCallback(
@@ -42,9 +42,9 @@ export default function QuizList() {
     const generateRandomNumber = () => {
         let newIndex;
         do {
-            newIndex = Math.floor(Math.random() * 126);
+            newIndex = Math.floor(Math.random() * 176);
         } while (historyQuizIndex.includes(newIndex))
-        return Math.floor(Math.random() * 126);
+        return Math.floor(Math.random() * 176);
     }
     const handleSetQuizIndex = (selectIndex: string, correct: boolean) => {
         setIsDisabled(true)
