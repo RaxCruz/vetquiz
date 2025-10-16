@@ -30,6 +30,10 @@ export default function QuizList() {
         setQuizIndex(Math.floor(Math.random() * 76))
     }, [])
 
+    useEffect(() => {
+  console.log("✅ correctRate 改變了:", correctRate);
+}, [correctRate]);
+
     const createQueryString = useCallback(
         (name: string, value: string) => {
             const params = new URLSearchParams(searchParams.toString())
