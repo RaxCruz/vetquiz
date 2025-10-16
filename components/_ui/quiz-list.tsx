@@ -68,7 +68,7 @@ export default function QuizList() {
             setSelected('')
             if (quizRound === 10) {
                 if(correct){
-                     const score: string = ((correctRate.filter(value => value === true).length+10) * 10).toString();
+                     const score: string = ((correctRate.filter(value => value === true).length+1) * 10).toString();
                      router.push('/result' + '?' + createQueryString('score', score))
                 }else{
                      const score: string = (correctRate.filter(value => value === true).length * 10).toString();
