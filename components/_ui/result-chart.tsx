@@ -93,12 +93,12 @@ export function ResultChart({ chartData }: { chartData: any }) {
                     </RadialBarChart>
                 </ChartContainer>
                <div className="relative grid place-content-center space-y-6 p-8">
-    <p className="mx-auto text-6xl font-black text-neutral-950 pl-4">
+    <p className="mx-auto text-6xl font-black text-white pl-4">
         {chartData[0].visitors >= 80 
             ? "遊刃有餘"
             : "卡認真"}
     </p>
-    <p className="text-center text-neutral-400">
+    <p className="text-center text-white">
         此次測驗{chartData[0].visitors >= 80 ? "通過囉，簡直完美 🎉！" : "沒過呦，要再認真一點 📺"}
     </p>
     <div className="flex items-center justify-center gap-3">
